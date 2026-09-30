@@ -1,0 +1,31 @@
+{
+  "name": "TR Custom Update",
+  "version": "1.1.1",
+  "description": "Startup Reliability Hotfix: automatic local backend + RPCN startup and launcher self-update manifest endpoint. Gameplay patch remains 1.1.0.",
+  "files": [
+    {
+      "source": "files\\NPUB31250_patch.yml",
+      "target": "patches\\NPUB31250_patch.yml"
+    },
+    {
+      "source": "files\\patch_config.yml",
+      "target": "config\\patch_config.yml"
+    },
+    {
+      "source": "files\\Start Tekken Revolution Offline.ps1",
+      "target": "Start Tekken Revolution Offline.ps1"
+    },
+    {
+      "source": "files\\Start Tekken Revolution Offline.cmd",
+      "target": "Start Tekken Revolution Offline.cmd"
+    },
+    {
+      "source": "files\\server.ps1",
+      "target": "tr_local_backend\\server.ps1"
+    },
+    {
+      "source": "files\\launcher_update_windows_manifest.json",
+      "target": "tr_local_backend\\launcher_update_windows_manifest.json"
+    }
+  ]
+}
