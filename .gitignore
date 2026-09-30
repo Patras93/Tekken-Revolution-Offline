@@ -1,0 +1,6 @@
+_release_assets/
+*.log
+*.db
+config/rpcn.yml
+local_rpcn/db/
+dev_hdd0/game/
