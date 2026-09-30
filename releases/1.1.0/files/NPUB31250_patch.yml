@@ -1,0 +1,12 @@
+Version: 1.2
+
+PPU-1504b75ba97abccdf2d0a93dd93aaff10591a01e:
+  "TR Custom Update 1.1.0 - Native Infinite Round":
+    Games:
+      "TEKKEN REVOLUTION":
+        NPUB31250: [ 01.05 ]
+    Author: "Local custom update"
+    Notes: "Forces the game's round-time setter to enable the native Infinite Round flag for every configured round time."
+    Patch Version: 1.1.0
+    Patch:
+      - [ be32, 0x0054B4E0, 0x38000001 ]
