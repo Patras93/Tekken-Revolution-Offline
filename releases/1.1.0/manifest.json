@@ -1,0 +1,15 @@
+{
+  "name": "TR Custom Update",
+  "version": "1.1.0",
+  "description": "Native Infinite Round for Tekken Revolution NPUB31250 01.05",
+  "files": [
+    {
+      "source": "files\\NPUB31250_patch.yml",
+      "target": "patches\\NPUB31250_patch.yml"
+    },
+    {
+      "source": "files\\patch_config.yml",
+      "target": "config\\patch_config.yml"
+    }
+  ]
+}
