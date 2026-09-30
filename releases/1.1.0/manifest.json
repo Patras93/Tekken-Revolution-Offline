@@ -1,7 +1,7 @@
 {
   "name": "TR Custom Update",
   "version": "1.1.0",
-  "description": "Native Infinite Round for Tekken Revolution NPUB31250 01.05",
+  "description": "Infinite Time plus 5 wins / up to 9 rounds for Tekken Revolution NPUB31250 01.05",
   "files": [
     {
       "source": "files\\NPUB31250_patch.yml",
