@@ -1,12 +1,21 @@
 Version: 1.2
 
 PPU-1504b75ba97abccdf2d0a93dd93aaff10591a01e:
-  "TR Custom Update 1.1.0 - Native Infinite Round":
+  "TR Custom Update 1.1.0 - Infinite Time + 5 Wins / 9 Rounds":
     Games:
       "TEKKEN REVOLUTION":
         NPUB31250: [ 01.05 ]
     Author: "Local custom update"
-    Notes: "Forces the game's round-time setter to enable the native Infinite Round flag for every configured round time."
+    Notes: "Native Infinite Round plus 5-win match limit and 9-round maximum/final-round logic."
     Patch Version: 1.1.0
     Patch:
       - [ be32, 0x0054B4E0, 0x38000001 ]
+      - [ be32, 0x0028BF48, 0x38000005 ]
+      - [ be32, 0x0028C024, 0x38000005 ]
+      - [ be32, 0x0028CA7C, 0x38000005 ]
+      - [ be32, 0x0028CAE4, 0x38000005 ]
+      - [ be32, 0x0028F0A8, 0x38000005 ]
+      - [ be32, 0x0028BF2C, 0x38000009 ]
+      - [ be32, 0x0028C008, 0x38000009 ]
+      - [ be32, 0x00293758, 0x38000009 ]
+      - [ be32, 0x0029B848, 0x38000009 ]
