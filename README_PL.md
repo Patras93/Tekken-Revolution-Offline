@@ -24,6 +24,7 @@ Pierwsza własna linia aktualizacji zaczyna się od 1.1.0.
 - Backend odpowiada na `/launcher/update/windows/manifest`, dzięki czemu lokalny launcher nie wywala się na sprawdzaniu własnej aktualizacji.
 - Nie nadpisuje zapisów gry, bazy RPCN ani danych logowania.
 - Działający lokalny hook Offline Kit ma SHA-256: `53e7985b6b1737bb7f89809df50145256d1574513deb0c3c1a69415aef1906de`.
+- Aktualna paczka dystrybucyjna 1.1.1: `Tekken_Revolution_Offline_Kit_Distribution.zip`, 237065431 B, SHA-256 `866e1c4050f922c4ca3fe0e770f0df649889236619c42519e40369f337d669c9`.
 
 ### 1.1.0
 - Native Infinite Round / nieskończony czas rundy.
