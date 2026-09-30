@@ -1,9 +1,9 @@
-param([string]$Server)
+param([string]$Server='100.66.211.73')
 $ErrorActionPreference='Stop'
 $root=Split-Path -Parent (Split-Path -Parent $MyInvocation.MyCommand.Path)
 $rpcnYml=Join-Path $root 'config\rpcn.yml'
 if(-not (Test-Path $rpcnYml)){ throw 'Brak config\rpcn.yml' }
-if([string]::IsNullOrWhiteSpace($Server)){ $Server=Read-Host 'Podaj adres IP lub nazwe hosta komputera gospodarza' }
+if([string]::IsNullOrWhiteSpace($Server)){ $Server='100.66.211.73' }
 if($Server -notmatch '^[A-Za-z0-9\.\-:]+$'){ throw 'Nieprawidlowy adres serwera.' }
 
 $admin=([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)
